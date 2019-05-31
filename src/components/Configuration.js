@@ -8,7 +8,6 @@ class Configuration extends React.Component{
         super(props);
         this.state={variables:[],restricciones:[]};
         this.handlerMethod=this.handlerMethod.bind(this);
-        this.handleNext=this.handleNext.bind(this);
         this.handlerObjective=this.handlerObjective.bind(this);
         this.handlerInputRes=this.handlerInputRes.bind(this);
         this.handlerInputVar=this.handlerInputVar.bind(this);
@@ -85,16 +84,9 @@ class Configuration extends React.Component{
         this.handleNewsVar(method);
     }
 
-    handleNext () {
-        console.log(this.state.restricciones);
-        this.props.handleStateSystem(this.state.variables,
-            this.state.restricciones,
-            this.state.method,
-            this.state.objective)
-    }
-
     handlerObjective (objective) {
         this.setState({objective})
+        this.props.status = this.state;
     }
 
 
@@ -198,11 +190,6 @@ class Configuration extends React.Component{
                             <h5>Restricciones:</h5>
                             {restriccionesToDesc}
                         </Card>
-                    </Row>
-                    <Row className="mt-3">
-                        <Col md={{ span: 6, offset: 6 }}>
-                            <Button onClick={this.props.nextStep} onClickCapture={this.handleNext}>Continuar</Button>
-                        </Col> 
                     </Row>
                 </Container>
                 

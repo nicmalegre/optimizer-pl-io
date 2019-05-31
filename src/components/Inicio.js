@@ -5,6 +5,7 @@ import  Processing  from "./Processing";
 import  Presentation  from "./Presentation";
 import logo from '../logo.svg';
 import StepWizard from 'react-step-wizard';
+import StepperHorizontal from './StepperHorizontal';
 
 
 class Inicio extends React.Component{
@@ -38,11 +39,9 @@ class Inicio extends React.Component{
                     </Col>
                 </Row>
                 <Row>
-                    <StepWizard lg={12} md={6}  className="mt-4 mx-auto">
-                        <Configuration handleStateSystem={this.handleStateSystem} status={this.state}/>
-                        <Processing handleStateSystem={this.handleStateSystem} status={this.state}/>
-                        <Presentation handleStateSystem={this.handleStateSystem} status={this.state}/>
-                    </StepWizard>
+                    <Col xs={12} md={6}  className="mx-auto">
+                        <StepperHorizontal/>
+                    </Col>
                 </Row>
             </Container>
 
