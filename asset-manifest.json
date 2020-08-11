@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/optimizer-pl-io/static/css/main.b47e56a5.chunk.css",
-    "main.js": "/optimizer-pl-io/static/js/main.e925c48b.chunk.js",
-    "main.js.map": "/optimizer-pl-io/static/js/main.e925c48b.chunk.js.map",
+    "main.js": "/optimizer-pl-io/static/js/main.f8348332.chunk.js",
+    "main.js.map": "/optimizer-pl-io/static/js/main.f8348332.chunk.js.map",
     "runtime-main.js": "/optimizer-pl-io/static/js/runtime-main.4a332c2c.js",
     "runtime-main.js.map": "/optimizer-pl-io/static/js/runtime-main.4a332c2c.js.map",
     "static/css/2.2f8ebd95.chunk.css": "/optimizer-pl-io/static/css/2.2f8ebd95.chunk.css",
     "static/js/2.cd726bc4.chunk.js": "/optimizer-pl-io/static/js/2.cd726bc4.chunk.js",
     "static/js/2.cd726bc4.chunk.js.map": "/optimizer-pl-io/static/js/2.cd726bc4.chunk.js.map",
     "index.html": "/optimizer-pl-io/index.html",
-    "precache-manifest.b6da09d0841e10382e1fa4409d6414ad.js": "/optimizer-pl-io/precache-manifest.b6da09d0841e10382e1fa4409d6414ad.js",
+    "precache-manifest.a4af1d6040bd67f28fe581399bc12c39.js": "/optimizer-pl-io/precache-manifest.a4af1d6040bd67f28fe581399bc12c39.js",
     "service-worker.js": "/optimizer-pl-io/service-worker.js",
     "static/css/2.2f8ebd95.chunk.css.map": "/optimizer-pl-io/static/css/2.2f8ebd95.chunk.css.map",
     "static/css/main.b47e56a5.chunk.css.map": "/optimizer-pl-io/static/css/main.b47e56a5.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.2f8ebd95.chunk.css",
     "static/js/2.cd726bc4.chunk.js",
     "static/css/main.b47e56a5.chunk.css",
-    "static/js/main.e925c48b.chunk.js"
+    "static/js/main.f8348332.chunk.js"
   ]
 }
