@@ -85,7 +85,7 @@ const Inicio = () =>{
                                 AJ
                             </Button>
                             <UncontrolledTooltip target='btnRodrigo'>Cuevas, Rodrigo</UncontrolledTooltip>
-                            <Button id='btnRodrigo' outline tag="a" href="">
+                            <Button id='btnRodrigo' outline tag="a" href="https://github.com/Rodrigocvs">
                                 CR
                             </Button>
                             <UncontrolledTooltip target='btnMatias'>Saravia, Matias</UncontrolledTooltip>
